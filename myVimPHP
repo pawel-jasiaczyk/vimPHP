@@ -10,6 +10,7 @@ set tabstop=2
 set number
 
 " Vertical line for 80
+highlight ColorColumn ctermbg=7 ctermfg=red
 set colorcolumn=80
 
 " PHP syntax highlight
@@ -18,3 +19,5 @@ set syntax=php
 
 " PHP autocomplete - press ctrl+x, ctrl+o
 set omnifunc=phpcomplete#CompletePHP
+
+
