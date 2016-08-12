@@ -5,6 +5,8 @@
 set expandtab
 set tabstop=2
 
+" Autoindent
+set autoindent
 
 " Verses numbers
 set number
