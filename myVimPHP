@@ -22,4 +22,8 @@ set syntax=php
 " PHP autocomplete - press ctrl+x, ctrl+o
 set omnifunc=phpcomplete#CompletePHP
 
-
+" Highlight current line - togle on/off by '\'+'c'
+:hi CursorLine cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred 
+  \guifg=white
+:nnoremap <Leader>c :set cursorline!<CR>
+set cursorline
