@@ -1,9 +1,5 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"
-" This is my vimrc file for editing PHP scripts
-"
-" To use this .vimrc you must already have installed 
-" php.vim in your vim directory
+" This is my vimrc file for editing MySql scripts
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -31,7 +27,7 @@ set cursorline
 " Check if terminal is dark now
 let var_term = &background
 
-" Setting background colors - this can change terminal background dark/ligh set
+" Setting background colors
 :hi Normal ctermbg=232
 :hi NonText ctermbg=233
 
@@ -40,7 +36,7 @@ if var_term == "dark"
   set background=dark
 elseif background == "light"
   set background=light
-endif  
+endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Settings typical for web programing
@@ -51,14 +47,12 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Settings for PHP
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" PHP syntax highlight
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Settings for MySql
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax on
-set syntax=php
+set syntax=mysql
 
-" PHP autocomplete - press ctrl+x, ctrl+o
-set omnifunc=phpcomplete#CompletePHP
-
+" I do not know how to run autocompletion
+" set omnifunc=
