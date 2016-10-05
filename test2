@@ -1,0 +1,4 @@
+set number
+
+highlight ColorColumn ctermbg=7 ctermfg=red
+set colorcolumn=80

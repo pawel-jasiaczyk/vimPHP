@@ -1,23 +1,21 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " My general vim setting for web aplications design
 
 " Load myGeneralSettings
 " so myGeneralSettings
 " this isn't work well, so here is copy of that
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" General Settings For Programing
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Verses numbers
 set number
 
 " Vertical line for 81
-highlight ColorColumn ctermbg=7 ctermfg=red
-set colorcolumn=81" Highlight current line - togle on/off by '\'+'c'
-
-" :hi CursorLine cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred 
-  \guifg=white
-:hi CursorLine cterm=NONE ctermbg=DarkGray guibg=DarkGray  
-:nnoremap <Leader>c :set cursorline!<CR>
-set cursorline
+highlight ColorColumn ctermbg=234 ctermfg=red
+set colorcolumn=81
 
 " Autoindent
 set autoindent
@@ -25,24 +23,42 @@ set autoindent
 " Highlight current line - togle on/off by '\'+'c'
 " :hi CursorLine cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred 
   \guifg=white
-:hi CursorLine cterm=NONE ctermbg=DarkGray guibg=DarkGray  
+:hi CursorLine cterm=NONE ctermbg=233 guibg=DarkGray  
 :nnoremap <Leader>c :set cursorline!<CR>
-
 set cursorline
-" Tab setting=4
-set expandtab
-set tabstop=4
-set shiftwidth=4
 
+" Setting about dark or light therminal
+" Check if terminal is dark now
+let var_term = &background
+
+" Setting background colors - this can change terminal background dark/ligh set
+:hi Normal ctermbg=232
+:hi NonText ctermbg=233
+
+" Restore previous background settings
+if var_term == "dark"
+  set background=dark
+elseif background == "light"
+  set background=light
+endif  
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Settings typical for web programing
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" Here are speciffic for WebDevelop Settings
-
-set cursorline
 " Tab setting=2
 set expandtab
 set tabstop=2
 set shiftwidth=2
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Settings for PHP
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" PHP syntax highlight
+" syntax on
+" set syntax=php
+
+" PHP autocomplete - press ctrl+x, ctrl+o
+" set omnifunc=phpcomplete#CompletePHP
 

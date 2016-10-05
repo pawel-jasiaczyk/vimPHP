@@ -1,0 +1,48 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" ============================================================================ "
+"                                   Klawisze                                   "
+" ============================================================================ "
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" ============================================================================ "
+"                                    Tryby                                     "
+" ============================================================================ "
+
+Esc - tryb normalny
+i - tryb wprowadzania, kursor nie zmienia pozycji
+I - tryb wprowadzania, kursor na początek linii
+a - tryb wprowadzania, kursor na następne pole
+A - tryb wprowadzania, kursor na koniec linii
+v - tryb wizualny
+V - tryb wizualny liniowy
+
+" ============================================================================ "
+"                             Ruch - tryb Normalny                             "
+" ============================================================================ "
+
+$ - koniec linii
+0 - początek linii
+b - wyraz wstecz - początek
+B - wyraz wstecz - oddzielony spacją - traktuje interpunkcje jak litery 
+3b - 3 wyrazy wstecz - początek
+3B - 3 wyrazy wstecz - początek - oddzielony spacją 
+    - traktuje interpunkcje jak litery 
+e - koniec wyrazu
+E - koniec wyrazu -  oddzielony spacją - traktuje interpunkcje jak litery
+w - następny wyraz - początek
+3w - 3 wyrazy wprzód - początek
+W - następny wyraz - oddzielony spacją - traktuje interpunkcje jak litery
+
+
+
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" ============================================================================ "
+"                                  Polecenia                                   "
+" ============================================================================ "
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+@% - nazwa aktualnie otwartego pliku
+echo - wyświetla na ekranie efekt następnego polecenia
+expand('%:p') - pełna ścieżka do pliku
