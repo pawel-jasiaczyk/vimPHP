@@ -26,14 +26,32 @@ b - wyraz wstecz - początek
 B - wyraz wstecz - oddzielony spacją - traktuje interpunkcje jak litery 
 3b - 3 wyrazy wstecz - początek
 3B - 3 wyrazy wstecz - początek - oddzielony spacją 
-    - traktuje interpunkcje jak litery 
+      - traktuje interpunkcje jak litery 
 e - koniec wyrazu
 E - koniec wyrazu -  oddzielony spacją - traktuje interpunkcje jak litery
+ge - koniec poprzedniego wyrazu
+3ge - 3 wyrazy wstecz - koniec
+10gg - skok do linii 10
+10G - skok do linii 10
 w - następny wyraz - początek
 3w - 3 wyrazy wprzód - początek
 W - następny wyraz - oddzielony spacją - traktuje interpunkcje jak litery
+3W - 3 wyrazy wprzód - początek - oddzielony spacją 
+      - traktuje interpunkcje jak litery
 
-
+""""""""""""""""""""""""""""""  Ruch po ekranie  """""""""""""""""""""""""""""""                             
+J - góra ekranu
+L - dół ekranu
+M - środek ekranu
+"""""""""""""""""""""""""""""  Ruch po dokumencie  """""""""""""""""""""""""""""
+Ctrl-d - pół strony w dół
+Ctrl-u - pół strony w górę
+Ctrl-b - strona w górę (PageUp)
+Ctrl-f - strona w dół (PageDown)
+Ctrl-o - skok do ostatniej pozycji kursora
+Ctrl-i - skok do następnej pozycji kursora (sprzed Ctrl-o)
+Ctrl-y - linijka w górę - przewyjanie ekranu, nie kursora
+Ctrl-e - linijka w dół - przewyjanie ekranu, nie kursora
 
 
 
