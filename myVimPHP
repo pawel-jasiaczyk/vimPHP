@@ -38,7 +38,7 @@ let var_term = &background
 " Restore previous background settings
 if var_term == "dark"
   set background=dark
-elseif background == "light"
+elseif var_term == "light"
   set background=light
 endif  
 
