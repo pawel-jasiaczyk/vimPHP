@@ -1,5 +1,18 @@
 " General setting for all design
 
+" Colorscheme
+colorscheme evening
+
+" Fonts
+set gfn=Lucida_Console:h9:cEASTEUROPE:qDRAFT
+
+" Options to hide toolbar and menu
+set guioptions-=m
+set guioptions-=T
+set guioptions-=L
+set guioptions-=r
+
+
 " Verses numbers
 set number
 
@@ -23,10 +36,10 @@ set autoindent
 :nnoremap <Leader>c :set cursorline!<CR>
 
 set cursorline
-" Tab setting=4
+"Tab setting=2
 set expandtab
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 
 "set syntax
 syntax on
